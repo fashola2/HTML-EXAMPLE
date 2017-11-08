@@ -1,0 +1,312 @@
+.wrapper{
+padding-top: 0px;
+margin: 0 auto;
+background: #F2F1E8;
+color: #131511;
+width: 100%
+}
+
+.logo{
+  float: left;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  background-image: url("images/bent-creek-logo.png");
+}
+
+.nav_bar{
+  background: #FFFFFF;
+  display: flex;
+  width: 100%;
+}
+.nav_items {
+  display: flex;
+align-content: center;
+justify-content: space-between;
+list-style-type: none;
+margin-top: 35px;
+margin-right: 50px;
+}
+.nav_items a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-right: 50px
+}
+
+a{
+  color: #2B2F26
+}
+a:hover {
+  color: #CD5D67
+}
+a:active{
+  color: #968772
+}
+
+footer{
+  color: white;
+  background-color: #293026;
+  padding-top: 25px;
+ padding-bottom: 25px;
+ padding-left: 25px;
+ margin-top: 20px;
+}
+
+.title h1 {
+  display: flex;
+justify-content: center;
+font-size: 52px;
+font-weight: bold;
+margin-top: 30px;
+}
+
+.title h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+#img1 {
+  background-image: url("images/product-1.jpg");
+  background-size: cover;
+  height: 350px;
+  width: 54%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+#img2 {
+  background-image: url("images/product-2.jpg");
+  background-size: cover;
+  height: 350px;
+  width: 23%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+#img3 {
+  background-image: url("images/product-3.jpg");
+  background-size: cover;
+  height: 350px;
+  width: 23%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+#img3 {
+  background-image: url("images/product-3.jpg");
+  background-size: cover;
+  height: 350px;
+  width: 23%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+#img4 {
+  background-image: url("images/product-4.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+#img5 {
+  background-image: url("images/product-5.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+#img6 {
+  background-image: url("images/product-6.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+#img7 {
+  background-image: url("images/product-7.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.images1{
+  display: flex;
+  flex-direction: row;
+}
+.images2{
+  display: flex;
+  flex-direction: row;
+}
+
+.images1 a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color:#293026;
+  margin-top: 300px;
+  padding: 10px;
+  width: 165px;
+}
+
+.images2 a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color:#293026;
+  margin-top: 200px;
+  padding: 10px;
+  width: 165px;
+}
+
+#birds{
+  background-image: url("images/birdhouse.jpg");
+  float: left;
+  height: 85px;
+  width: 110px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px 20px 20px;
+}
+
+#middle_img {
+  background-image: url("images/background-3.jpg");
+  width: 100%;
+  height: 300px;
+background-size: cover;
+background-position: center;
+bottom: 10%;
+}
+
+#middle_img a {
+  display: flex;
+  color: white;
+  font-size: 75px;
+  justify-content: center;
+  padding-top: 7%;
+  text-decoration: none;
+}
+
+#side_image {
+  float: right;
+  background-image: url("images/background-1.jpg");
+  width: 110px;
+  height: 85px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#side_image p {
+  display: block;
+  font-size: 10px;
+  padding-top: 95px;
+}
+
+.about_title {
+  display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.about_body .room {
+  display: flex;
+  flex-direction: column;
+  padding: 1% 2% 1% 2%
+}
+
+.about_container h4 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+blockquote {
+  border-left: 1px solid #968772;
+  font-style: italic;
+  clear: left;
+  margin-top: 20px;
+}
+
+.plans {
+  display: flex;
+flex-direction: column;
+padding: 1% 2% 1% 2%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+thead tr th {
+  padding: 10px 20px 10px 20px;
+}
+
+table thead {
+  background-color: #F2F1E8
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #F3EADB
+}
+
+#news_section {
+  background-image: url("images/background-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.whole_thing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.whole_thing1 {
+background-color: white;
+padding: 20px 40px 60px 40px;
+margin-top: 60px;
+}
+
+.news_title {
+  text-align: center;
+}
+
+#newsName, #newsEmail {
+  width: 100%;
+  outline: none;
+  border-bottom: 2px solid #968722;
+  font-size: 1em;
+}
+
+#submit{
+  color: #F2F1E8;
+  background-color: #968772;
+  border: none;
+  height: 50px;
+    width: 135px;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 38%;
+
+}
